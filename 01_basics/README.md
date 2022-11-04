@@ -158,7 +158,7 @@ db = 1/m * np.sum(dZ)
 dw = 1/m * np.dot(X, dZ.transpose())
 ```
 
-### 2.1. Boradcasting in Python
+### 2.1. Broadcasting in Python
 
 Arrays with different sizes cannot be added, subtracted or generally be used in arithmetic. A way to overcome this is to duplicate the smaller array so that it is the dimensionality and size as the larger array. This is called array broadcasting and is available in NumPy when performing array arithmetic, which can greatly reduce and simplify your code.
 
