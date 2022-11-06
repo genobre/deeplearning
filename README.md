@@ -9,3 +9,4 @@ You will find the following sections:
 1. Basics
    - Logistic Regression
    - Vectorization
+2. Shallow Neural Networks
