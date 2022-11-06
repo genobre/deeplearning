@@ -96,3 +96,7 @@ $$ dW^{[1]} = \dfrac{1}{m}dZ^{[1]}X^T $$
 $$ db^{[1]} = \dfrac{1}{m} np.sum(dZ^{[1]}, axis=1, keepdims=True) $$
 
 These equations can be easily found by computing the derivatives of L with respect to each of these variables, primarily using the chain rule of calculus. I took the time to find them manually and I suggest that anyone familiar with calculus and derivatives also do so for a better understanding of what is being applied, but since the purpose of this summary is not calculus focused, I will go on without further explanation. .
+
+> No codes in this section
+> 
+> This section has no codes because any code made would be very similar to the code in the course that inspires this study, and so I opted to have only the concepts in this section.
