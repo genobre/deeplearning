@@ -95,7 +95,9 @@ $$ dZ^{[1]} = W^{[2]T}dZ^{[2]} * g^{[1]'}(Z^{[1]}) $$
 $$ dW^{[1]} = \dfrac{1}{m}dZ^{[1]}X^T $$
 $$ db^{[1]} = \dfrac{1}{m} np.sum(dZ^{[1]}, axis=1, keepdims=True) $$
 
-These equations can be easily found by computing the derivatives of L with respect to each of these variables, primarily using the chain rule of calculus. I took the time to find them manually and I suggest that anyone familiar with calculus and derivatives also do so for a better understanding of what is being applied, but since the purpose of this summary is not calculus focused, I will go on without further explanation. .
+These equations can be easily found by computing the derivatives of L with respect to each of these variables, primarily using the chain rule of calculus. I took the time to find them manually and I suggest that anyone familiar with calculus and derivatives also do so for a better understanding of what is being applied, but since the purpose of this summary is not calculus focused, I will go on without further explanation. 
+
+Also, an important detail is that we have to initialize our parameters $W$ with random values, otherwise we will end up with the same parameters for each node.
 
 > No codes in this section
 > 
